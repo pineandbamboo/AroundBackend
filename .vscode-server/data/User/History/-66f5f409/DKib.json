@@ -1,0 +1,17 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "notebook.output.textLineLimit": 100000,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "One Dark Pro",
+  "remote.SSH.remotePlatform": {
+    "34.28.210.77": "linux",
+    "35.188.113.132": "linux"
+  },
+  "editor.largeFileOptimizations": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "workbench.editorAssociations": {
+    "*.dat": "default"
+  },
+  "editor.suggest.showStatusBar": true
+}

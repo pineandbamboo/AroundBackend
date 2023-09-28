@@ -1,0 +1,23 @@
+2023-09-28 20:01:17.513 [info] 
+
+
+
+
+2023-09-28 20:01:17.544 [info] Extension host agent started.
+2023-09-28 20:01:17.720 [info] [127.0.0.1][c1a22b67][ManagementConnection] New connection established.
+2023-09-28 20:01:17.785 [info] [127.0.0.1][78c5e4ca][ExtensionHostConnection] New connection established.
+2023-09-28 20:01:18.025 [info] [127.0.0.1][78c5e4ca][ExtensionHostConnection] <251657> Launched Extension Host Process.
+2023-09-28 20:01:20.592 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

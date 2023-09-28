@@ -1,0 +1,13 @@
+2023-09-13 11:47:07.361 [info] 
+
+
+
+
+2023-09-13 11:47:07.385 [info] Extension host agent started.
+2023-09-13 11:47:10.666 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-13 11:47:10.666 [info] Cancelling previous shutdown timeout
+2023-09-13 11:47:55.692 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-13 11:47:55.693 [info] Cancelling previous shutdown timeout
+2023-09-13 11:47:56.053 [error] [127.0.0.1][7c10334a][ManagementConnection] Unknown reconnection token (never seen).
+2023-09-13 11:47:56.204 [error] [127.0.0.1][01dff4d8][ExtensionHostConnection] Unknown reconnection token (never seen).
+2023-09-13 11:52:55.693 [info] Last EH closed, shutting down

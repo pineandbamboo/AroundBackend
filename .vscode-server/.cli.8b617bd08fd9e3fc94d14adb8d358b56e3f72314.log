@@ -1,0 +1,8 @@
+Listening on 127.0.0.1:39837
+[2023-09-13 03:47:27] info Disposed of connection to running server.
+looking for token 72a030030a78, got Some("72a030030a78")
+[2023-09-13 03:47:30] info Checking /home/bambooteax/.vscode-server/cli/servers/Stable-8b617bd08fd9e3fc94d14adb8d358b56e3f72314/log.txt and /home/bambooteax/.vscode-server/cli/servers/Stable-8b617bd08fd9e3fc94d14adb8d358b56e3f72314/pid.txt for a running server...
+[2023-09-13 03:47:30] info Downloading Visual Studio Code server -> /tmp/.tmpmrTv9o/vscode-server-linux-x64.tar.gz
+[2023-09-13 03:47:33] info Starting server...
+[2023-09-13 03:47:33] info Server started
+[2023-09-13 03:51:37] info Disposed of connection to running server.

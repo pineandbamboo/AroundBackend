@@ -1,0 +1,462 @@
+2023-09-21 04:07:23.389 [info] Extension host with pid 133508 started
+2023-09-21 04:07:23.446 [info] Lock '/home/bambooteax/.vscode-server/data/User/workspaceStorage/a32c059a52339fc4e50f9e2dca1a136d/vscode.lock': Lock acquired.
+2023-09-21 04:07:23.524 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-09-21 04:07:23.526 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-21 04:07:24.685 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-21 04:07:25.205 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-21 04:07:25.206 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-21 04:07:27.918 [info] Eager extensions activated
+2023-09-21 04:07:27.919 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-21 04:07:27.920 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-21 04:07:27.920 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-21 04:07:30.684 [error] [golang.go] provider FAILED
+2023-09-21 04:07:30.684 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:30.688 [error] [golang.go] provider FAILED
+2023-09-21 04:07:30.688 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:30.690 [error] [golang.go] provider FAILED
+2023-09-21 04:07:30.690 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:30.692 [error] [golang.go] provider FAILED
+2023-09-21 04:07:30.692 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:30.692 [error] [golang.go] provider FAILED
+2023-09-21 04:07:30.693 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:30.694 [error] [golang.go] provider FAILED
+2023-09-21 04:07:30.694 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:32.248 [error] [golang.go] provider FAILED
+2023-09-21 04:07:32.248 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:32.925 [error] [golang.go] provider FAILED
+2023-09-21 04:07:32.925 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:33.218 [error] [golang.go] provider FAILED
+2023-09-21 04:07:33.218 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:33.579 [error] [golang.go] provider FAILED
+2023-09-21 04:07:33.580 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:33.888 [error] [golang.go] provider FAILED
+2023-09-21 04:07:33.889 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:37.753 [error] [golang.go] provider FAILED
+2023-09-21 04:07:37.753 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:38.131 [error] [golang.go] provider FAILED
+2023-09-21 04:07:38.131 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:38.579 [error] [golang.go] provider FAILED
+2023-09-21 04:07:38.579 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:39.023 [error] [golang.go] provider FAILED
+2023-09-21 04:07:39.023 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:39.940 [error] [golang.go] provider FAILED
+2023-09-21 04:07:39.941 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:40.576 [error] [golang.go] provider FAILED
+2023-09-21 04:07:40.576 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:41.321 [error] [golang.go] provider FAILED
+2023-09-21 04:07:41.321 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:44.308 [error] [golang.go] provider FAILED
+2023-09-21 04:07:44.309 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:44.385 [error] [golang.go] provider FAILED
+2023-09-21 04:07:44.385 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:45.251 [error] [golang.go] provider FAILED
+2023-09-21 04:07:45.252 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:45.634 [error] [golang.go] provider FAILED
+2023-09-21 04:07:45.634 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:46.118 [error] [golang.go] provider FAILED
+2023-09-21 04:07:46.118 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:46.512 [error] [golang.go] provider FAILED
+2023-09-21 04:07:46.512 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:47.067 [error] [golang.go] provider FAILED
+2023-09-21 04:07:47.067 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:47.696 [error] [golang.go] provider FAILED
+2023-09-21 04:07:47.696 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:48.604 [error] [golang.go] provider FAILED
+2023-09-21 04:07:48.604 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:49.595 [error] [golang.go] provider FAILED
+2023-09-21 04:07:49.596 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:49.898 [error] [golang.go] provider FAILED
+2023-09-21 04:07:49.898 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:07:50.515 [error] [golang.go] provider FAILED
+2023-09-21 04:07:50.516 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:00.996 [error] [golang.go] provider FAILED
+2023-09-21 04:08:00.996 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:01.279 [error] [golang.go] provider FAILED
+2023-09-21 04:08:01.279 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:02.649 [error] [golang.go] provider FAILED
+2023-09-21 04:08:02.649 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:03.286 [error] [golang.go] provider FAILED
+2023-09-21 04:08:03.287 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:03.660 [error] [golang.go] provider FAILED
+2023-09-21 04:08:03.661 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:03.976 [error] [golang.go] provider FAILED
+2023-09-21 04:08:03.977 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:05.448 [error] [golang.go] provider FAILED
+2023-09-21 04:08:05.448 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:07.538 [error] [golang.go] provider FAILED
+2023-09-21 04:08:07.539 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:09.519 [error] [golang.go] provider FAILED
+2023-09-21 04:08:09.519 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:09.852 [error] [golang.go] provider FAILED
+2023-09-21 04:08:09.852 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:10.179 [error] [golang.go] provider FAILED
+2023-09-21 04:08:10.180 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:10.515 [error] [golang.go] provider FAILED
+2023-09-21 04:08:10.515 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:10.941 [error] [golang.go] provider FAILED
+2023-09-21 04:08:10.941 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:11.299 [error] [golang.go] provider FAILED
+2023-09-21 04:08:11.299 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:11.963 [error] [golang.go] provider FAILED
+2023-09-21 04:08:11.963 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:17.114 [error] [golang.go] provider FAILED
+2023-09-21 04:08:17.114 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:17.431 [error] [golang.go] provider FAILED
+2023-09-21 04:08:17.431 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:17.947 [error] [golang.go] provider FAILED
+2023-09-21 04:08:17.947 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:18.379 [error] [golang.go] provider FAILED
+2023-09-21 04:08:18.380 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:18.996 [error] [golang.go] provider FAILED
+2023-09-21 04:08:18.996 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:19.181 [error] [golang.go] provider FAILED
+2023-09-21 04:08:19.182 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:20.194 [error] [golang.go] provider FAILED
+2023-09-21 04:08:20.194 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:21.042 [error] [golang.go] provider FAILED
+2023-09-21 04:08:21.042 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:21.853 [error] [golang.go] provider FAILED
+2023-09-21 04:08:21.853 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:22.900 [error] [golang.go] provider FAILED
+2023-09-21 04:08:22.900 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:23.367 [error] [golang.go] provider FAILED
+2023-09-21 04:08:23.367 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:08:25.271 [error] [golang.go] provider FAILED
+2023-09-21 04:08:25.271 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:09:20.398 [error] [golang.go] provider FAILED
+2023-09-21 04:09:20.398 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:09:23.583 [error] [golang.go] provider FAILED
+2023-09-21 04:09:23.583 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:09:23.879 [error] [golang.go] provider FAILED
+2023-09-21 04:09:23.880 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:09:24.300 [error] [golang.go] provider FAILED
+2023-09-21 04:09:24.300 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:09:24.864 [error] [golang.go] provider FAILED
+2023-09-21 04:09:24.864 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:09:25.968 [error] [golang.go] provider FAILED
+2023-09-21 04:09:25.968 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 04:09:26.741 [error] [golang.go] provider FAILED
+2023-09-21 04:09:26.741 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-21 15:40:16.892 [info] Extension host terminating: received terminate message from renderer
+2023-09-21 15:40:16.895 [info] Lock '/home/bambooteax/.vscode-server/data/User/workspaceStorage/a32c059a52339fc4e50f9e2dca1a136d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-09-21 15:40:21.928 [info] Extension host with pid 133508 exiting with code 0

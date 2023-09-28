@@ -1,0 +1,44 @@
+2023-09-28 20:01:23.320 [info] Log level: Info
+2023-09-28 20:01:23.320 [info] Validating found git in: "git"
+2023-09-28 20:01:23.320 [info] Using git "2.25.1" from "git"
+2023-09-28 20:01:23.320 [info] > git rev-parse --show-toplevel [50ms]
+2023-09-28 20:01:23.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:01:23.320 [info] > git rev-parse --show-toplevel [30ms]
+2023-09-28 20:01:23.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:01:23.320 [info] > git rev-parse --show-toplevel [26ms]
+2023-09-28 20:01:23.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:01:23.320 [info] > git rev-parse --show-toplevel [9ms]
+2023-09-28 20:01:23.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:01:23.320 [info] > git rev-parse --show-toplevel [7ms]
+2023-09-28 20:01:23.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:01:23.320 [info] > git rev-parse --show-toplevel [41ms]
+2023-09-28 20:01:23.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:01:23.357 [info] > git rev-parse --show-toplevel [37ms]
+2023-09-28 20:01:23.358 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:01:23.437 [info] > git rev-parse --show-toplevel [19ms]
+2023-09-28 20:01:23.437 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:02:09.225 [info] > git rev-parse --show-toplevel [39ms]
+2023-09-28 20:02:09.226 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-28 20:02:56.627 [info] > git init [27ms]
+2023-09-28 20:02:56.644 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-28 20:02:56.658 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-09-28 20:02:56.671 [info] Open repository: /home/bambooteax
+2023-09-28 20:02:56.713 [info] No remotes found in the git config file.
+2023-09-28 20:02:56.718 [info] > git config --get commit.template [17ms]
+2023-09-28 20:02:56.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-09-28 20:02:57.357 [info] > git show --textconv :go/src/around/backend/elasticsearch.go [42ms]
+2023-09-28 20:02:57.358 [info] > git show --textconv :package-lock.json [29ms]
+2023-09-28 20:02:57.358 [info] > git ls-files --stage -- /home/bambooteax/package-lock.json [4ms]
+2023-09-28 20:02:57.360 [info] > git ls-files --stage -- /home/bambooteax/go/src/around/backend/elasticsearch.go [18ms]
+2023-09-28 20:02:57.426 [info] > git check-ignore -v -z --stdin [4ms]
+2023-09-28 20:02:58.134 [info] > git ls-files --stage -- /home/bambooteax/go/src/around/backend/elasticsearch.go [14ms]
+2023-09-28 20:02:58.139 [info] > git ls-files --stage -- /home/bambooteax/package-lock.json [6ms]
+2023-09-28 20:02:58.267 [info] > git show --textconv :go/src/around/backend/elasticsearch.go [22ms]
+2023-09-28 20:02:58.267 [info] > git show --textconv :package-lock.json [5ms]
+2023-09-28 20:02:58.749 [info] > git status -z -uall [2014ms] (cancelled)
+2023-09-28 20:03:10.048 [info] > git config --get commit.template [18ms]
+2023-09-28 20:03:10.073 [info] No remotes found in the git config file.
+2023-09-28 20:03:10.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-09-28 20:03:14.921 [info] > git status -z -uall [4819ms] (cancelled)
+2023-09-28 20:03:15.558 [info] > git check-ignore -v -z --stdin [5ms]
+2023-09-28 20:03:17.113 [info] > git check-ignore -v -z --stdin [4ms]

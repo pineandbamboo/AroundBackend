@@ -1,0 +1,44 @@
+2023-09-16 15:51:38.949 [info] Extension host with pid 91386 started
+2023-09-16 15:51:39.047 [info] Lock '/home/bambooteax/.vscode-server/data/User/workspaceStorage/a32c059a52339fc4e50f9e2dca1a136d/vscode.lock': Lock acquired.
+2023-09-16 15:51:39.151 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-09-16 15:51:39.153 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-16 15:51:40.231 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-16 15:51:40.772 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-16 15:51:40.772 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-16 15:51:43.651 [info] Eager extensions activated
+2023-09-16 15:51:43.652 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-16 15:51:43.653 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-16 15:51:43.654 [info] ExtensionService#_doActivateExtension codista.vscode-autosave, startup: false, activationEvent: 'onStartupFinished'
+2023-09-16 15:51:43.654 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-16 15:51:46.556 [error] [golang.go] provider FAILED
+2023-09-16 15:51:46.556 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-16 15:51:46.558 [error] [golang.go] provider FAILED
+2023-09-16 15:51:46.559 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-16 15:52:23.482 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-09-16 19:47:43.551 [error] [golang.go] provider FAILED
+2023-09-16 19:47:43.553 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-16 19:47:43.557 [error] [golang.go] provider FAILED
+2023-09-16 19:47:43.557 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-16 23:13:48.944 [info] Extension host terminating: renderer disconnected for too long (1)
+2023-09-16 23:13:48.945 [info] Lock '/home/bambooteax/.vscode-server/data/User/workspaceStorage/a32c059a52339fc4e50f9e2dca1a136d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-09-16 23:13:53.971 [info] Extension host with pid 91386 exiting with code 0

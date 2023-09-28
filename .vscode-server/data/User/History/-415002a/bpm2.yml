@@ -1,0 +1,7 @@
+elasticsearch:
+  address: "35.188.113.132"
+  username: "admin"
+  password: "123456"
+
+gcs:
+  bucket: ""

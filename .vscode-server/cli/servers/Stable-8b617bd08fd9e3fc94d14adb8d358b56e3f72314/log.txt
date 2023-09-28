@@ -1,0 +1,19 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-3f7e199e-41e5-410d-acb0-f6ec00a275b6
+Extension host agent listening on /tmp/code-3f7e199e-41e5-410d-acb0-f6ec00a275b6
+
+[03:47:33] 
+
+
+
+
+[03:47:33] Extension host agent started.
+[03:47:34] [<unknown>][9e292109][ManagementConnection] Unknown reconnection token (never seen).
+Last EH closed, shutting down
+[03:52:33] Last EH closed, shutting down

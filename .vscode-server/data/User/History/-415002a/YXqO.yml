@@ -1,0 +1,10 @@
+elasticsearch:
+  address: "http://35.188.113.132:9200"
+  username: "admin"
+  password: "123456"
+
+gcs:
+  bucket: "around-1414-bucket"
+
+token:
+  secret: "secret"

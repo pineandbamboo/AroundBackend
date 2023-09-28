@@ -1,0 +1,128 @@
+2023-09-21 04:07:21.388 [info] 
+
+
+
+
+2023-09-21 04:07:21.417 [info] Extension host agent started.
+2023-09-21 04:07:21.583 [info] [127.0.0.1][de16eb30][ManagementConnection] New connection established.
+2023-09-21 04:07:21.663 [info] [127.0.0.1][ac5d4f6b][ExtensionHostConnection] New connection established.
+2023-09-21 04:07:21.922 [info] [127.0.0.1][ac5d4f6b][ExtensionHostConnection] <133508> Launched Extension Host Process.
+2023-09-21 04:07:24.481 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-21 04:12:21.425 [info] New EH opened, aborting shutdown
+2023-09-21 09:13:55.295 [info] [127.0.0.1][de16eb30][ManagementConnection] The client has reconnected.
+2023-09-21 09:13:56.378 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateIcon (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27540)
+    at T.<computed> (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-21 09:13:56.381 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-21 09:13:56.382 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-21 09:13:57.440 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-21 09:14:24.148 [info] [127.0.0.1][ac5d4f6b][ExtensionHostConnection] The client has reconnected.
+2023-09-21 15:40:16.856 [info] [127.0.0.1][de16eb30][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-21 15:40:16.866 [error] Error: Throttler is disposed
+    at c.queue (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-21 15:40:16.869 [error] Error: Throttler is disposed
+    at c.queue (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-21 15:40:16.869 [error] Error: Throttler is disposed
+    at c.queue (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-21 15:40:16.869 [error] Error: Throttler is disposed
+    at c.queue (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-21 15:40:16.870 [error] Error: Throttler is disposed
+    at c.queue (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-21 15:40:16.870 [error] Error: Throttler is disposed
+    at c.queue (/home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/bambooteax/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-21 15:40:22.001 [info] [127.0.0.1][ac5d4f6b][ExtensionHostConnection] <133508> Extension Host Process exited with code: 0, signal: null.
+2023-09-21 15:40:22.001 [info] Last EH closed, waiting before shutting down
+2023-09-21 15:45:22.002 [info] Last EH closed, shutting down

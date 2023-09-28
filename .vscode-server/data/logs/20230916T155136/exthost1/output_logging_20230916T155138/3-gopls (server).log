@@ -1,0 +1,406 @@
+[Info  - 3:51:42 PM] 2023/09/16 15:51:41 go info for /home/bambooteax
+(go dir /home/bambooteax/go/src/around)
+(go version go version go1.20.7 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+(selected go env: [GO111MODULE=, GOCACHE=/home/bambooteax/.cache/go-build, GOFLAGS=, GOMODCACHE=/home/bambooteax/go/pkg/mod, GOPATH=/home/bambooteax/go, GOPRIVATE=, GOROOT=/usr/lib/go-1.20, GOWORK=])
+
+
+[Info  - 3:51:45 PM] 2023/09/16 15:51:45 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/bambooteax
+	query=[/home/bambooteax/go/src/around/... builtin]
+	packages=8
+
+[Info  - 3:51:45 PM] 2023/09/16 15:51:45 go/packages.Load #1: updating metadata for 393 packages
+
+[Error - 3:51:45 PM] 2023/09/16 15:51:45 tidy: diagnosing file:///home/bambooteax/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+go: downloading github.com/google/martian/v3 v3.3.2
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 3:51:46 PM] Request textDocument/semanticTokens/range failed.
+  Message: semantictokens are disabled
+  Code: 0 
+[Error - 3:51:46 PM] Request textDocument/semanticTokens/full failed.
+  Message: semantictokens are disabled
+  Code: 0 
+[Error - 3:51:47 PM] 2023/09/16 15:51:47 tidy: diagnosing file:///home/bambooteax/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/google/martian/v3 v3.3.2
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 3:52:16 PM] 2023/09/16 15:52:16 background imports cache refresh starting
+
+[Info  - 3:52:18 PM] 2023/09/16 15:52:18 background refresh finished after 1.734451732s
+
+[Error - 4:33:02 PM] 2023/09/16 16:33:02 tidy: diagnosing file:///home/bambooteax/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/google/martian/v3 v3.3.2
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:45:02 PM] 2023/09/16 16:45:02 tidy: diagnosing file:///home/bambooteax/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/google/martian/v3 v3.3.2
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 4:48:02 PM] 2023/09/16 16:48:02 tidy: diagnosing file:///home/bambooteax/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/google/martian/v3 v3.3.2
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:47:43 PM] Request textDocument/semanticTokens/range failed.
+  Message: semantictokens are disabled
+  Code: 0 
+[Error - 7:47:43 PM] Request textDocument/semanticTokens/range failed.
+  Message: semantictokens are disabled
+  Code: 0 
+[Error - 7:47:43 PM] 2023/09/16 19:47:43 tidy: diagnosing file:///home/bambooteax/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/google/martian/v3 v3.3.2
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Error - 8:13:29 PM] 2023/09/16 20:13:29 tidy: diagnosing file:///home/bambooteax/go/src/around/go.mod: err: exit status 1: stderr: go: downloading github.com/fortytw2/leaktest v1.3.0
+go: downloading gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/urfave/negroni v1.0.0
+go: downloading github.com/google/martian/v3 v3.3.2
+around/backend imports
+	github.com/olivere/elastic/v7 tested by
+	github.com/olivere/elastic/v7.test imports
+	github.com/fortytw2/leaktest: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+around/handler imports
+	github.com/auth0/go-jwt-middleware tested by
+	github.com/auth0/go-jwt-middleware.test imports
+	github.com/urfave/negroni: module lookup disabled by GOPROXY=off
+around/util imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/fifo: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/httpspec: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/martianlog: module lookup disabled by GOPROXY=off
+around/backend imports
+	cloud.google.com/go/storage tested by
+	cloud.google.com/go/storage.test imports
+	cloud.google.com/go/httpreplay imports
+	cloud.google.com/go/httpreplay/internal/proxy imports
+	github.com/google/martian/v3/mitm: module lookup disabled by GOPROXY=off
+
+
+[Info  - 11:13:48 PM] 2023/09/16 23:13:48 Shutdown session
+	shutdown_session=1
+

@@ -1,0 +1,28 @@
+2023-09-17 01:56:25.543 [info] Extension host with pid 100882 started
+2023-09-17 01:56:25.581 [info] Lock '/home/bambooteax/.vscode-server/data/User/workspaceStorage/a32c059a52339fc4e50f9e2dca1a136d/vscode.lock': Lock acquired.
+2023-09-17 01:56:25.701 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-17 01:56:25.703 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2023-09-17 01:56:26.809 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-17 01:56:27.025 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-17 01:56:27.025 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-17 01:56:30.011 [info] Eager extensions activated
+2023-09-17 01:56:30.012 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-17 01:56:30.030 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-17 01:56:30.031 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-17 01:56:32.743 [error] [golang.go] provider FAILED
+2023-09-17 01:56:32.754 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-17 01:56:32.757 [error] [golang.go] provider FAILED
+2023-09-17 01:56:32.757 [error] Error: semantictokens are disabled
+	at handleResponse (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:2126:40)
+	at handleMessage (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1936:11)
+	at processMessageQueue (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1951:13)
+	at Immediate.<anonymous> (/home/bambooteax/.vscode-server/extensions/golang.go-0.39.1/dist/goMain.js:1927:11)
+	at process.processImmediate (node:internal/timers:476:21)
+2023-09-17 06:20:00.159 [info] Extension host terminating: received terminate message from renderer
+2023-09-17 06:20:00.161 [info] Lock '/home/bambooteax/.vscode-server/data/User/workspaceStorage/a32c059a52339fc4e50f9e2dca1a136d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-09-17 06:20:05.191 [info] Extension host with pid 100882 exiting with code 0

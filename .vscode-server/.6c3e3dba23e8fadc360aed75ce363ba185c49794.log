@@ -1,0 +1,119 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:40643 (IPv4)
+Extension host agent listening on 40643
+
+[20:58:15] 
+
+
+
+
+[20:58:15] Extension host agent started.
+[20:58:15] [127.0.0.1][cf7f0d22][ManagementConnection] New connection established.
+[20:58:15] [127.0.0.1][6cbcb56d][ExtensionHostConnection] New connection established.
+[20:58:15] [127.0.0.1][6cbcb56d][ExtensionHostConnection] <39574> Launched Extension Host Process.
+rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'cwd')
+stack trace: TypeError: Cannot read properties of undefined (reading 'cwd')
+    at g.I (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:941)
+    at g.reviveTerminalProcesses (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:795)
+    at g.B.<computed> (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[20:58:17] Error [TypeError]: Cannot read properties of undefined (reading 'cwd')
+    at g.I (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:941)
+    at g.reviveTerminalProcesses (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:795)
+    at g.B.<computed> (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+New EH opened, aborting shutdown
+[21:03:15] New EH opened, aborting shutdown
+[21:18:31] Getting Manifest... codista.vscode-autosave
+[21:18:31] Installing extension: codista.vscode-autosave
+[21:18:32] Extension signature verification failed with error 'ENOENT': codista.vscode-autosave
+[21:18:37] Extracted extension to file:///home/bambooteax/.vscode-server/extensions/codista.vscode-autosave-1.2.3: codista.vscode-autosave
+[21:18:37] Renamed to /home/bambooteax/.vscode-server/extensions/codista.vscode-autosave-1.2.3
+[21:18:37] Extracting extension completed. codista.vscode-autosave
+[21:18:37] Extension installed successfully: codista.vscode-autosave
+[22:29:41] Getting Manifest... esbenp.prettier-vscode
+[22:29:41] Installing extension: esbenp.prettier-vscode
+[22:29:41] Extension signature verification failed with error 'ENOENT': esbenp.prettier-vscode
+[22:29:42] Extracted extension to file:///home/bambooteax/.vscode-server/extensions/esbenp.prettier-vscode-10.1.0: esbenp.prettier-vscode
+[22:29:42] Renamed to /home/bambooteax/.vscode-server/extensions/esbenp.prettier-vscode-10.1.0
+[22:29:42] Extracting extension completed. esbenp.prettier-vscode
+[22:29:42] Extension installed successfully: esbenp.prettier-vscode
+[22:32:28] Getting Manifest... golang.go
+[22:32:28] Installing extension: golang.go
+[22:32:29] Extension signature verification failed with error 'ENOENT': golang.go
+[22:32:29] Extracted extension to file:///home/bambooteax/.vscode-server/extensions/golang.go-0.39.1: golang.go
+[22:32:29] Renamed to /home/bambooteax/.vscode-server/extensions/golang.go-0.39.1
+[22:32:29] Extracting extension completed. golang.go
+[22:32:29] Extension installed successfully: golang.go
+[22:32:42] [127.0.0.1][cf7f0d22][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:32:42] Error: Throttler is disposed
+    at r.queue (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[22:32:42] Error: Throttler is disposed
+    at r.queue (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[22:32:42] Error: Throttler is disposed
+    at r.queue (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[22:32:42] Error: Throttler is disposed
+    at r.queue (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[22:32:42] Error: Throttler is disposed
+    at r.queue (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[22:32:42] Error: Throttler is disposed
+    at r.queue (/home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/bambooteax/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[22:32:42] [127.0.0.1][6cbcb56d][ExtensionHostConnection] <39574> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[22:32:42] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[22:37:42] Last EH closed, shutting down
